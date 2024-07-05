@@ -1,0 +1,104 @@
+.profile-card {
+    
+    border-radius: 8px;
+    padding: 45px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: white;
+    background-color: #cccccc50;
+}
+.profile-info {
+    background-color: #cccccc00;
+    text-align: center;
+
+}
+h3{
+    background-color:#cccccc00;
+}
+p{
+    background-color: #cccccc00;
+}
+.profile-card img {
+    border-radius: 50%;
+   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+   
+    color: white;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+    
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding-right: 380px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th{
+    background-color: #cccccc72;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button{
+    background-color: #ccccccba;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px auto;
+
+}
+#profilesContainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.tableContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+@media (max-width: 600px) {
+    .body {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #profilesContainer {
+      max-width: 90%;
+      flex: none;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 8px;
+    }
+    .button {
+        width: 90%;
+        font-size: 14px;
+        padding: 12px 0;
+      }
+  }
